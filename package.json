@@ -1,17 +1,24 @@
 {
-  "name": "eslint-config",
-  "version": "1.0.0",
-  "description": "Shared ESLint config for Denizenapp projects",
-  "main": "index.js",
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/denizenapp/eslint-config.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/denizenapp/eslint-config/issues"
-  },
-  "homepage": "https://github.com/denizenapp/eslint-config#readme"
+	"name": "eslint-config",
+	"version": "1.0.0",
+	"description": "Shared ESLint config for Denizenapp projects",
+	"main": "index.js",
+	"scripts": {
+		"format": "prettier --write {,*/**/}*.{js,css,json,md}"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/denizenapp/eslint-config.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/denizenapp/eslint-config/issues"
+	},
+	"homepage": "https://github.com/denizenapp/eslint-config#readme",
+	"devDependencies": {
+		"prettier": "^2.3.0",
+		"prettier-config": "github:denizenapp/prettier-config#main"
+	},
+	"prettier": "prettier-config"
 }
