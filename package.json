@@ -1,5 +1,5 @@
 {
-	"name": "eslint-config",
+	"name": "eslint-config-denizenapp",
 	"version": "1.0.0",
 	"description": "Shared ESLint config for Denizenapp projects",
 	"main": "index.js",
@@ -8,14 +8,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/denizenapp/eslint-config.git"
+		"url": "git+https://github.com/denizenapp/eslint-config-denizenapp.git"
 	},
 	"author": "",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/denizenapp/eslint-config/issues"
+		"url": "https://github.com/denizenapp/eslint-config-denizenapp/issues"
 	},
-	"homepage": "https://github.com/denizenapp/eslint-config#readme",
+	"homepage": "https://github.com/denizenapp/eslint-config-denizenapp#readme",
 	"peerDependencies": {
 		"eslint": "^7.2.0"
 	},
