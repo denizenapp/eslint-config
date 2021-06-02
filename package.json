@@ -25,7 +25,7 @@
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-import": "^2.22.1",
 		"prettier": "^2.3.0",
-		"prettier-config": "github:denizenapp/prettier-config#main"
+		"prettier-config-denizenapp": "github:denizenapp/prettier-config-denizenapp#main"
 	},
-	"prettier": "prettier-config"
+	"prettier": "prettier-config-denizenapp"
 }
